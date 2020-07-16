@@ -1,24 +1,26 @@
 # JavaScript
 
-É uma linguagem de scipt.
+É uma linguagem de script.
 
 &nbsp;
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A diferença de uma linguagem de script pra uma que não é, e que não passa pela compilação. O script é executado na hora que é carregado, ou quando é definido.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A diferença de uma linguagem de script pra uma que não é, é que não passa pela compilação. O script é executado na hora que é carregado, ou quando é definido.
 
 &nbsp;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Processo nas linguagens compiladas:
-
+<div align="center">
            Código-fonte ➙ Criação do Binário ➙ Execução
+</div>
 &nbsp;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Processo nas linguagens de script:
 
-                  Script ➙ Código-fonte ➙ Execução
+  <div align="center">Script ➙ Código-fonte ➙ Execução
+  </div>
 &nbsp;
 
 
@@ -50,7 +52,8 @@ E isso ajuda muito a padrozinar a linguagem. Com isso se pode rodar o JavaScript
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 No passado, o ActionScript era executada dentro do **Flash** , essa linguagem também era baseada em JavaScript e no ECMAScript.
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 O ECMAScript têm versões, e cada uma trás novidades e não necessariamente tudo que está numa versão está implementadas, e não segue necessariamente uma sequência ordenada de implementação das versões. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-E isso pode ser conferido no ___(releases notes)___. E com isso é possivel saber o que foi implementado de novo. Há também (___flags___), que ativas ou desativam funcionalidades enquanto estão em "modo teste".
+E isso pode ser conferido no ___(releases notes)___. E com isso é possivel saber o que foi implementado de novo. Há também (___flags___), que ativam ou desativam funcionalidades enquanto estão em "modo teste".
