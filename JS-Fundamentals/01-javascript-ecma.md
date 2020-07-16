@@ -11,16 +11,23 @@ A diferença de uma linguagem de script pra uma que não é, é que não passa p
 
 
 Processo nas linguagens compiladas:
+
+&nbsp;
+
 <div align="center">
            Código-fonte ➙ Criação do Binário ➙ Execução
 </div>
+
 &nbsp;
 
 
 Processo nas linguagens de script:
 
+&nbsp;
+
   <div align="center">Script ➙ Código-fonte ➙ Execução
   </div>
+
 &nbsp;
 
 
