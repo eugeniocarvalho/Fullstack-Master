@@ -15,14 +15,14 @@ var b = 20 // hoisting
 const c = 30
 
 //Em tipo objeto, nos conseguimos manipular o que tem dentro,
-//nos nao conseguimos fazer uma atribuição direta
+//mas nós nao conseguimos fazer uma atribuição direta
 const d = {}
 
 d.a = 10
 
 console.log(d)
 
-//Geralmente construimos algumas variaveis basicas, pra construir outras mais complexas
+//Geralmente construimos algumas variaveis basicas, para construir outras mais complexas
 const firstName = 'Eugênio'
 const secondName = 'Carvalho'
 

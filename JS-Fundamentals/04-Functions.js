@@ -10,7 +10,7 @@ function ola() {
 
 ola()
 
-// deixa o código mais organizado, sempre declarar o que vai usar, e depois chamar
+// deixa o código mais organizado, sempre implementar antes o que vai usar, e depois invocar
 function opa() {
   console.log('Opa!')
 }
@@ -22,9 +22,9 @@ function ola2() {
 
 ola2()
 
-// quando o retorno da função, depende exclusivamente dos valores de entradas
+// quando o retorno da função depende exclusivamente dos valores de entradas,
 // ela é uma função pura, a partir do momento que alguma coisa externa a ela,
-// pode mudar o valor, é deixa de ser
+// pode mudar o valor, ela deixa de ser uma função pura
 // quanto mais pura, mais facil de testar
 
 function multiplica(a, b) {
@@ -35,6 +35,7 @@ function dobra(num) {
   //isso é chamado de composição
   return multiplica(num, 2)
 }
+
 const num = dobra(2)
 
 console.log(num)

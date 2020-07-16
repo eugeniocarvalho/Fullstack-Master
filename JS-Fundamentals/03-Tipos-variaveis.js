@@ -1,8 +1,11 @@
+//int, double
 const num = 10.1
 
+//string
 const str = `Meu número é ${num + 1}`
 console.log(str)
 
+// objeto
 const obj = {
   nome: 'Eugênio Freire',
   cidade: {
@@ -11,6 +14,7 @@ const obj = {
   }
 }
 
+//modos de acesso ao objeto
 console.log(obj)
 console.log(obj.nome)
 
@@ -19,6 +23,7 @@ const key2 = 'nome'
 
 console.log(obj[key])
 
+//vetor
 const array = [1, 2, 3]
 console.log(array[1])
 
