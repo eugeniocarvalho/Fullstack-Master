@@ -1,5 +1,5 @@
 const fs = require('fs')
-
+4
 //promise + async / await
 
 //convertendo readfile pra primise
