@@ -25,7 +25,6 @@ const testForReduce = (previousValue, currentValue, currentIndex, vetor) => {
 const returnForReduce = nums.reduce(testForReduce, 0)
 console.log('Retorno ForReduce', returnForReduce)
 
-
 const soma = nums
 .map(a => a * 2)
 .reduce((a, b) => a + b)

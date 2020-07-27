@@ -2,7 +2,7 @@
 
 const v = [1, 2, 3, 4, 5]
 
-const somatorio = (valorAnterior, valorAtual, indexAtual, vetor) => {
+const somatorio = (valorAnterior, valorAtual) => {
   return valorAnterior + valorAtual
 }
 
