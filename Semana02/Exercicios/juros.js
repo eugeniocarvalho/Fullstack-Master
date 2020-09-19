@@ -4,7 +4,7 @@ const jurosSimples = (c, i, t) => c * i * t
 
 'Crie uma nova função que dado as mesmas variáveis do exercício anterior, retorne o montante total C + juros simples.'
 
-const montanteJurosSimples = ({jurosSimples})=> (c, i, t) => c + jurosSimples(c, i, t) 
+const montanteJurosSimples = ({ jurosSimples }) => (c, i, t) => c + jurosSimples(c, i, t)
 
 'Crie uma função montanteJurosCompostos que recebe C (capital), i (juros em decimal) e t (tempo) e retorno o montante para o período, dado pela fórmula: M = C * (1 +  i) ^ n​.'
 
@@ -17,9 +17,9 @@ const jurosComposto = ({ montanteJurosCompostos }) => (C, i, t) => montanteJuros
 
 module.exports = {
     jurosSimples,
-    montanteJurosSimples: montanteJurosSimples({jurosSimples}),
+    montanteJurosSimples: montanteJurosSimples({ jurosSimples }),
     montanteJurosCompostos,
-    jurosComposto: jurosComposto({montanteJurosCompostos}),
+    jurosComposto: jurosComposto({ montanteJurosCompostos }),
     pure: {
         montanteJurosSimples,
         jurosComposto
