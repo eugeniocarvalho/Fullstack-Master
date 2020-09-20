@@ -1,0 +1,40 @@
+body {
+  background: gainsboro;
+  font-family: sans-serif;
+  margin: 1.25rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2.titulo {
+  color: red;
+}
+
+#principal {
+  border: 2px solid blue;
+}
+
+.box {
+  background: green;
+  padding: 1.25rem;
+  border: 4px solid blue;
+  margin: 2.5rem;
+}
+
+.box:hover {
+  background: red;
+  border: none;
+  padding: 24px;
+}
+
+.box span {
+  background: red;
+}
+
+@media (min-width: 768px) {
+  .box span {
+    background: violet;
+  }
+}
