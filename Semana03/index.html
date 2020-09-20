@@ -41,11 +41,53 @@
     <p>
       <a href="bootstrap.html">Bootstrap</a>
     </p>
+
+    <p>
+      <a href="conversor.html">Conversor</a>
+    </p>
   </section>
 
   <div class="box">
     <span>Texto</span>
+    <button id="btn" type="button">Clique aqui</button>
   </div>
+
+  <div class="box box2">
+    <span>Texto</span>
+  </div>
+
+  <button id="btn2" type="button">Clique aqui</button>
+
+  <script src="jquery-3.5.1.min.js"></script>
+  <script>
+    /*document.addEventListener('DOMContentLoaded', () => {
+      // console.log('loaded')
+      // console.log(document.getElementById('principal').innerHTML)
+      document.getElementById('btn').addEventListener('click', () => {
+        // console.log('clicou')
+        const p = document.createElement('p')
+
+        p.innerHTML = 'Olá mundo'
+
+        document.body.appendChild(p)
+
+      })
+    })
+    */
+
+    $(function() {
+      // console.log('loaded')
+
+      $('#btn').click(function() {
+        $('body').append('<p>Olá Mundo!</p>')
+      })
+
+      $('#btn2').click(function() {
+        $('.box2').slideToggle()
+      })
+
+    })
+  </script>
 </body>
 
 </html>
