@@ -1,11 +1,13 @@
 body {
-  background: gainsboro;
+  background: rgb(31, 30, 30);
   font-family: sans-serif;
   margin: 1.25rem;
+  color: white;
 }
 
 h1 {
   font-size: 2.5rem;
+  text-align: center;
 }
 
 h2.titulo {
@@ -31,6 +33,10 @@ h2.titulo {
 
 .box span {
   background: red;
+}
+
+a {
+  color: white;
 }
 
 @media (min-width: 768px) {
